@@ -12,8 +12,30 @@ export default function Home() {
       </Head>
 
       <main>
-        <section className={styles.background }>
-          <p className={styles.h2}>Grafis Papelería Copistería</p>
+        <nav className={styles.nav}>
+              <a href='#Inicio' className={styles.enlaces}>Inicio  </a>
+              <a href='#Servicios' className={styles.enlaces}>Servicios  </a>
+              <a href='#Contacto'className={styles.enlaces}>Contacto</a>
+        </nav>
+        <section id="Inicio" className={styles.background }>
+          
+            
+            <p className={styles.h2}>Grafis Papelería Copistería</p>
+          
+        </section>
+        <section id="Servicios" className={styles.text}>
+          <h2>Servicios</h2>
+          <p>Explicación de los servicios</p>
+        </section>
+        <section  className={styles.background2}>
+          <h3>Quienes somos</h3>
+        </section>
+        <section id="Contacto" className={styles.text}>
+          <h2>Contacta con nosotros</h2>
+          <p>maneras de contactar con grafis</p>
+        </section>
+        <section className={styles.background3}>
+          <h3>Quienes somos</h3>
         </section>
       </main>
 
